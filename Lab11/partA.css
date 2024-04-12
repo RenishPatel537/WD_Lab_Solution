@@ -1,0 +1,21 @@
+div{
+    display: inline-block;
+
+}
+.box1{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+    background: linear-gradient(red,yellow);
+    margin: 20px;
+    
+}
+
+.box2{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    background:radial-gradient(red,yellow,green);
+    margin: 20px;
+}

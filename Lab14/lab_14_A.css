@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(70, 69, 69);
+    /* position: relative; */
+}
+
+.A{
+    color: white;
+    margin-top: 15px;
+}
+
+.bookseries{
+    position: absolute;
+    left: 30%;
+}
+
+.Testimonials{
+    position: absolute;
+    left: 40%;
+}
+
+.author{
+    position:absolute;
+    left: 50%;
+}
+
+.free{
+    position: absolute;
+    left: 60%;
+}
+
+.mid{
+    width: 100%;
+    height: 700px;
+    background-color: darkgray;
+    /* position: absolute; */
+    
+}
+
+.h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+    height: 30px;
+    width: 100%;
+    /* position: relative; */
+}
+
+.box{
+    width: 100%;
+    height: 650px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 25% auto;
+    position: relative;
+}
+
+.logo{
+    height: 600px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: grid;
+    grid-template-rows: 25% 25% 50%;
+}
+
+.text{
+    height: 500px;
+    width: 60%;
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-weight: bold;
+    align-content: center;
+    display: grid;
+    grid-template-rows: (4,auto);
+    gap: 80px;
+}
+
+.text1{
+   margin-left:70px;
+   padding: 50px;
+}
+
+button{
+    border-radius: 121px;
+    background-color:orange ;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.sym{
+    border: 2px solid black;
+    position: relative;
+}
+
+.O{
+    background-color: black;
+    color: white;
+    width: 90px;
+    padding-top: 0px;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+.Lorem{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    height: 100px;
+    width: 150px;
+
+}
+
+.lekhak{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.com{
+    border: 2px solid black;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.js{
+    border: 2px solid black;
+    background-color: yellow;
+    
+}
+
+.fotter{
+    background-color:rgb(1, 1, 42);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
